@@ -4,7 +4,11 @@
 
 ## 🗃️ Description
 
-App is a web text editor that can be used without connection to the internet. It's reliable and easy to use. We use the service worker and Cache APi's to guarantee connectivity throughout even without internet connection.
+App is a web text editor that can be used without connection to the internet. It's reliable and easy to use. We use the service worker and Cache APi's to guarantee connectivity throughout even without internet connection. Here's the Link to the deployed Heroku App:
+
+https://web-app-text-editor.herokuapp.com
+
+And Here's the repo Link: https://github.com/darentho/Progressive-Web-App-Text-Editor
 
 ## Table of Content
 

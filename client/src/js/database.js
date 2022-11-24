@@ -13,7 +13,7 @@ const initdb = async () =>
   });
 
 export const putDb = async (content) => {
-  console.log("Database PUT");
+  console.log("PUT to the database");
 
   const contactDb = await openDB("jate", 1);
 
@@ -24,7 +24,7 @@ export const putDb = async (content) => {
   const request = store.put({ id: 1, value: content });
 
   const result = await request;
-  console.log("data saved to database", result);
+  console.log("🚀 - data saved to the database", result);
 };
 
 export const getDb = async () => {
